@@ -1,0 +1,30 @@
+export interface IFinancialData {
+    maxAge: number;
+    currentPrice: number;
+    targetHighPrice: number;
+    targetLowPrice: number;
+    targetMeanPrice: number;
+    targetMedianPrice: number;
+    recommendationMean: number;
+    recommendationKey: string;
+    numberOfAnalystOpinions: number;
+    totalCash: number;
+    totalCashPerShare: number;
+    ebitda: number;
+    totalDebt: number;
+    quickRatio: number;
+    currentRatio: number;
+    totalRevenue: number;
+    debtToEquity: number;
+    revenuePerShare: number;
+    returnOnAssets: number;
+    returnOnEquity: number;
+    grossProfits: number;
+    freeCashflow: number;
+    operatingCashflow: number;
+    revenueGrowth: number;
+    grossMargins: number;
+    ebitdaMargins: number;
+    operatingMargins: number;
+    profitMargins: number;
+}

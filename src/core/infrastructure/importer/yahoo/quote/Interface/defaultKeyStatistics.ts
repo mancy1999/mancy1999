@@ -1,0 +1,30 @@
+export interface IDefaultKeyStatistics {
+    maxAge: number;
+    forwardPE: number;
+    profitMargins: number;
+    floatShares: number;
+    sharesOutstanding: number;
+    sharesShort: number;
+    sharesShortPriorMonth: number;
+    heldPercentInsiders: number;
+    heldPercentInstitutions: number;
+    shortRatio: number;
+    shortPercentOfFloat: number;
+    beta: number;
+    category?: string;
+    bookValue: number;
+    priceToBook: number;
+    fundFamily?: string;
+    legalType?: string;
+    lastFiscalYearEnd: Date;
+    nextFiscalYearEnd: Date;
+    mostRecentQuarter: Date;
+    netIncomeToCommon: number;
+    trailingEps: number;
+    forwardEps: number;
+    pegRatio: number;
+    lastSplitFactor: string;
+    lastSplitDate: Date;
+    Week52Change: number;
+    SandP52WeekChange: number;
+}

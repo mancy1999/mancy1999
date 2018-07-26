@@ -1,0 +1,16 @@
+[
+    {
+        "name": "default",
+        "type": "mssql",
+        "host": "SHERMAN-PC\\SQLEXPRESS",
+        "port": 1433,
+        "username": "sa",
+        "password": "master",
+        "database": "TradingStock",
+        "schema": "dbo",
+        "synchronize": false,
+        "entities": [
+            "src/entities/*.ts"
+        ]
+    }
+]

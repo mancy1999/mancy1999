@@ -1,0 +1,1 @@
+ts-node src/scheduling/daily.scheduling.ts
